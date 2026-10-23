@@ -290,7 +290,7 @@ codigo = "Especial";
                                         if (contadorProductos < productos_elegidos.length) {
                                             productos_elegidos[contadorProductos] = maquina_productos[i][j];
                                             contadorProductos++;
-                                            
+                                            carritoActualizado = true;
                                         }else{
                                             System.out.println("El carrito está lleno");
                                         }
@@ -303,7 +303,7 @@ codigo = "Especial";
                         
 
                         } 
-                        carritoActualizado = true;
+                        
                          
                     }
                     
@@ -336,7 +336,7 @@ codigo = "Especial";
                     
                     if (hayCarrito == true) {
 
-                        System.out.println("Monedas que acepta la maquina: 0.1, 0.2, 0.5, 1, 2 euros");
+                        System.out.println("Monedas que acepta la maquina: 0,1, 0,2, 0,5, 1, 2 euros");
                         System.out.println("Ingrese las monedas:");
                         moneda = leer.nextFloat();
 
